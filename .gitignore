@@ -1,0 +1,47 @@
+# =====================
+# Python
+# =====================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment / env
+.env
+.env.*
+.venv/
+venv/
+
+# =====================
+# Ignore tools folder
+# =====================
+src/tools/
+
+# =====================
+# Uploads (runtime files)
+# =====================
+src/uploads/
+
+# =====================
+# Logs
+# =====================
+*.log
+
+# =====================
+# OS / Editor
+# =====================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# =====================
+# Test / cache
+# =====================
+.pytest_cache/
+.mypy_cache/
+
+# =====================
+# Netlify
+# =====================
+.netlify/
