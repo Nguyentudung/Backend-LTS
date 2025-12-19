@@ -1,0 +1,12 @@
+backend/
+├─ src/
+│  ├─ __pycache__/   ❌
+│  ├─ docx_parser/  ✅
+│  ├─ netlify/      ✅
+│  ├─ tools/        ❌
+│  ├─ uploads/      ❌
+│  └─ server.py     ✅
+├─ .env             ❌
+├─ dist.zip         ✅
+├─ requirements.txt ✅
+└─ .gitignore       ✅
